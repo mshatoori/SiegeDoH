@@ -3,7 +3,7 @@ import random
 import string
 from asyncio import Queue
 
-from worker import Worker
+from siege.worker import Worker
 
 
 def random_token(length=6) -> str:
